@@ -1,0 +1,60 @@
+body{
+    background-image: url(Images/poker-black-background-playing-card-symbols-pattern-blackjack-vector.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+}
+
+h1 {
+    color: gold;
+    font-size: 45px;
+}
+
+#message-el{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.player-dealer{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.player-dealer p{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: grey;
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+    border-radius: 20px;
+    height: 35px;
+
+}
+
+@media screen and (max-width: 846px){
+.player-dealer{
+    width: 320px;
+}
+
+.player-dealer p{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+}
+    
+}
